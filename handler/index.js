@@ -1,16 +1,15 @@
 const fs = require('fs-extra');
 
 class config {
-  constructor(name, method, path, handler) {
+  constructor(name, method, handler) {
     this.name = name;
     this.method = method;
-    this.path = path;
     this.handler = handler;
   }
 }
 class routes extends config {
-  constructor(name, method, path, handler) {
-    super(name, method, path, handler);
+  constructor(name, method, handler) {
+    super(name, method, handler);
   }
 
   getRoutes(app) {
