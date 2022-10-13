@@ -1,0 +1,1 @@
+# The NodeJS Express tutorial is straightforward. It demonstrates how to build an app using the Express framework and connect it to a MySQL database. What are the benefits of using NodeJS Express, for instance? It facilitates learning about NodeJS fundamentals. MySQL and MongoDB.
